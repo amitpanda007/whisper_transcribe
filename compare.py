@@ -30,6 +30,7 @@ def create_srt_file(filename: str, outfile: str):
         one of the most important aspects
         of finance is interest.
 
+    :param outfile:
     :param filename: name of the source json file
     :return: None
     """
@@ -70,4 +71,4 @@ def create_srt_file(filename: str, outfile: str):
 
 if __name__ == "__main__":
     # compare_file("",".\\input\\test.txt")
-    create_srt_file("Docker_Introduction.json", "Docker_Introduction.srt")
+    create_srt_file("Family Guy S16E01 Emmy-Winning Episode.json", "Family Guy S16E01 Emmy-Winning Episode.srt")
